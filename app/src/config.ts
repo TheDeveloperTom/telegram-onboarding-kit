@@ -15,10 +15,17 @@ export default defineConfig({
           },
           shape: 'square',
           pagination: 'count',
-          title: 'Welcome to Telegram Onboarding Kit',
-          description:
-            "Create stunning onboarding and paywall for your Telegram Bot using the full power of Mini Apps<br><br>It's <b>simple</b>, <b>fast</b>, highly <b>customizable</b> and <a href='https://github.com/Easterok/telegram-onboarding-kit' target='_blank'>open-source</a>!",
-          button: 'Next',
+          title: 'Welcome to BeskarGram Onboarding',
+          description: `
+            BeskarGram — это ваш AI консьерж сервис для быстрого найма и поиска работы .
+            <br><br>
+            <b>Для клиентов:</b> Найдите и выберите лучших IT-специалистов, не тратя время на долгий поиск. Мы предоставляем доступ к квалифицированным разработчикам, их актуальным резюме и видео-самопрезентациям — всё это в одном приложении!
+            <br><br>
+            <b>Для разработчиков:</b> Продемонстрируйте свои навыки и уникальность прямо здесь! BeskarGram помогает вам рассказать о себе через резюме и видео, а наш ИИ автоматизирует подачу на подходящие вакансии, позволяя сосредоточиться на развитии.
+            <br><br>
+            BeskarGram — это <b>быстро</b>, <b>удобно</b> и <b>прямо к цели</b>. Давайте начнем!
+          `,
+          button: 'Дальше',
         },
 
         // image
