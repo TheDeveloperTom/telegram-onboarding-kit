@@ -9,9 +9,10 @@ export default defineConfig({
         // intro
         {
           media: {
-            type: 'sticker',
-            src: import('./assets/stickers/yoda_thinking.tgs'),
-            size: 200,
+            type: 'video',
+            src: import('./assets/videos/first-screen.mp4'),
+            poster: import('./assets/img/first-screen.webp'),
+            style: 'aspect-ratio: 400/287', // here we manually set video aspect-ratio (default is 16:9)
           },
           shape: 'square',
           pagination: 'count',
@@ -21,7 +22,6 @@ export default defineConfig({
           `,
           button: 'Next',
         },
-
         {
           media: {
             type: 'video',
